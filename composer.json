@@ -1,0 +1,22 @@
+{
+ "authors": [
+    {
+       "name": "Jefersson Nathan",
+       "homepage": "http://jefersson.com.br",
+       "role": "Developer"
+    }
+ ],
+ "autoload": {
+     "psr-0": {
+         "App": "app"
+     }
+ },
+ "require": {
+    "jstayton/google-maps-geocoder": "*",
+    "php": ">=5.2.0"
+ },
+ "require-dev": {
+    "phpunit/phpunit": "@dev",
+    "phpdocumentor/phpdocumentor": "*"
+ }
+}
