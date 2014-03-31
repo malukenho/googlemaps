@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh 
+#!/usr/bin/env zsh
 clear
 echo -e ""
 echo -e ""
@@ -23,7 +23,7 @@ echo -e "                █     ████                        █▄     
 echo -e "                █     ▀▀▀█                        ██ "
 echo -e "                █                       ▄▄▄▄█████▀ █▄"
 echo -e "                █          ▄▄▄▄▄██████▀▀▀▀▀▀       ██"
-echo -e "                █    ▄█████▀▀▀▀▀ ▄▄▄████           ██"
+echo -e "                █    ▄█████▀▀▀▀▀ ▄▄▄████           ██      Geolocalização não é GARANTIDA"
 echo -e "                ██                ▀                ██"
 echo -e "                ▀█▄                                █▀"
 echo -e "                 ▀█                               ▄█ "
