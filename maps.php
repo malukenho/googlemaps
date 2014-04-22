@@ -4,8 +4,9 @@ require __DIR__.'/vendor/autoload.php';
 use GoogleMapsGeocoder;
 
 $address = "Avenida Desembargador Maynard, Sergipe, Brasil";
+$address = "Rua panificador Silva, Sergipe, Brasil";
 
-$Geocoder = new \GoogleMapsGeocoder();
-$Geocoder->setAddress($address);
+$geocoder = new \GoogleMapsGeocoder();
+$geocoder->setAddress($address);
 
-print_r($Geocoder->geocode());
+print_r($geocoder->geocode());
