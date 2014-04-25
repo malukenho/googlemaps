@@ -9,6 +9,10 @@ The **proposal** initial of the course is to cover an environment of introductio
 
 To use this repository, to baster to have some minimum requirements (as for example `zsh `) installed and configured in its system **unix-like** and **to run pro I hug**.
 
+### How to see the examples?
+
+Easy, Easy. The archives are in a well legal logical sequence. nominated with index[ .html] order. To follow the steps it uses `vimdiff`
+
 #### Requirements
 
 - [PHP 5.3+](http://www.php.net/)
