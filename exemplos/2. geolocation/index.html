@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geolocation example</title>
+    <script>
+    var initialLocation;
+    var browserSupportFlag =  new Boolean();
+
+        // W3C
+        if(navigator.geolocation) {
+            browserSupportFlag = true;
+         
+            navigator.geolocation.getCurrentPosition(function(position) {
+              initialLocation = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+              map.setCenter(initialLocation);
+            }, function() {
+              handleNoGeolocation(browserSupportFlag);
+            });
+        }
+        // Browser geolocation fail :'(
+        else {
+            browserSupportFlag = false;
+            handleNoGeolocation(browserSupportFlag);
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
