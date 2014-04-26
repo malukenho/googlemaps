@@ -3,3 +3,4 @@
 *.log
 vendor
 composer.lock
+.DS_*
