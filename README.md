@@ -4,6 +4,13 @@
 
 The **proposal** initial of the course is to cover an environment of introduction to the world of ***GOOGLE MAPS*** to the participants. Thus, we will start of the basic one, who knows until we will make some more intermediate thing. More the **main objective is not this**.
 
+### Setting up Environment
+
+* Install vagrant using the installation instructions in the [Getting Started document](http://vagrantup.com/v1/docs/getting-started/index.html)
+* Add a Ubuntu Precise box using the [available official boxes](https://github.com/mitchellh/vagrant/wiki/Available-Vagrant-Boxes), for example: ```vagrant box add phpdevbox http://files.vagrantup.com/precise64.box``` (make sure it's named phpdevbox)
+* Clone this repository
+* Install submodules with ```git submodule update --init```
+* After running ```vagrant up``` the box is set up using Puppet
 
 ### How to use this repo?
 
