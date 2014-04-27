@@ -1,0 +1,18 @@
+{
+    "authors" : [
+      {
+          "name": "André Santos"
+      }
+    ],
+    "autoload": {
+        "psr-0":{ "Application\\":  "src/"}
+    },
+    "require": {
+      "jstatyton/google-maps-geocoder": "*"
+    },
+    "require-dev":{
+      "phpunit/phpunit": "@dev",
+      "phpdocumentor/phpdocumentor": "*"
+    }
+
+}
