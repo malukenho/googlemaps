@@ -19,7 +19,7 @@ class SearchValidateTest extends PHPUnit
     public function testVerificaSeExisteChaveAddressNoPostRecebido()
     {
         $_POST['address'] = null;
-        $this->assertFalse($this->_validateSearch->isAddressExist(), "Não contém o endereço");
+        $this->assertFalse($this->_validateSearch->isAddressExist());
     }
 
     public function tearDown()
