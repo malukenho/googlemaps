@@ -1,0 +1,5 @@
+.idea/*
+nbproject/*
+vendor
+.DS_Store
+!.gitkeep
