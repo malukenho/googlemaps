@@ -8,7 +8,7 @@
         "psr-0":{ "Application\\":  "src/"}
     },
     "require": {
-      "jstatyton/google-maps-geocoder": "*"
+      "jstayton/google-maps-geocoder": "*"
     },
     "require-dev":{
       "phpunit/phpunit": "@dev",
