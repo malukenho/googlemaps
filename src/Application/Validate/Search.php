@@ -7,4 +7,9 @@ class Search
     {
       return (isset($_POST['address']) && $_POST['address'] !== false) ? true : false;
     }
+
+    public function lengthAddress($address)
+    {
+        return strlen($address);
+    }
 }
