@@ -1,4 +1,2 @@
-<?php 
-require "boostrap.php";
-
-echo "ok";
+<?php
+require __DIR__ . "/vendor/autoload.php";
